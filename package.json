@@ -1,0 +1,33 @@
+{
+  "name": "vuejs-pouchdb",
+  "version": "1.0.0",
+  "description": "Usign pouchdb in Vue.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nauma/vuejs-pouchdb.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vuejs",
+    "Vue2",
+    "pouch",
+    "pouchdb"
+  ],
+  "author": "Roman Naumenko-Vahnitsky <romka.nauma@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nauma/vuejs-pouchdb/issues"
+  },
+  "homepage": "https://github.com/nauma/vuejs-pouchdb#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "pouchdb": "^6.4.3"
+  }
+}
