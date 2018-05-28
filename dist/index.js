@@ -26,5 +26,6 @@ function install(Vue) {
 
 exports.default = {
 	install: install,
-	plugin: plugin
+	plugin: plugin,
+	pouchdb: _pouchdb2.default
 };
