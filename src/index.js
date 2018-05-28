@@ -14,5 +14,6 @@ function install (Vue, options = {}) {
 
 export default {
 	install,
-	plugin
+	plugin,
+	pouchdb
 }
