@@ -3,8 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-exports.plugin = plugin;
-exports.install = install;
 
 var _pouchdb = require('pouchdb');
 
@@ -25,3 +23,8 @@ function install(Vue) {
 	Vue.pouch = db;
 	Vue.prototype.$pouch = db;
 }
+
+exports.default = {
+	install: install,
+	plugin: plugin
+};
