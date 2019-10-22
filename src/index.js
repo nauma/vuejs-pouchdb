@@ -8,6 +8,7 @@ function install (Vue, options = {}) {
 	if(!options.name) throw new Error('vuejs-pouchdb → error → please set db name!')
   dbName = options.name
   delete options.name
+  console.log(options)
 	let db = new pouchdb(dbName, options)
 
 	Vue.pouch = db
