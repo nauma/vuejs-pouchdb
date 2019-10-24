@@ -6,7 +6,7 @@ function plugin (plugin) {
 
 function install (Vue, options = {}) {
 	if(!options.name) throw new Error('vuejs-pouchdb → error → please set db name!')
-	dbName = options.name
+	let dbName = options.name
 	delete options.name
 	let db = new pouchdb(dbName, options)
 
